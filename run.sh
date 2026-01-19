@@ -558,15 +558,10 @@ if [ "$SKIP_GPU" = false ]; then
 #1080p 60fps
         log "Creating virtual monitor EDID..."
         sudo mkdir -p /usr/lib/nvidia
-        sudo tee /usr/lib/nvidia/edid.bin > /dev/null << 'EOF'
-00ffffffffffff000469888888888888
-01010101010101010101010101010101
-1d3680a070381e403020350055502100
-00001a000000fd00384b1e5311000a20
-202020202020000000fc005669727475
-616c204d6f6e69746f72000000ff0030
-30303030303030303030303000000000
-EOF
+        sudo bash -c '
+EDID_HEX="00ffffffffffff000469888888888888010101010101010101010101010101011d3680a070381e40302035005550210000001a000000fd00384b1e5311000a20202020202020000000fc005669727475616c204d6f6e69746f72000000ff00303030303030303030303030303000000000"
+echo "$EDID_HEX" | xxd -r -p > /usr/lib/nvidia/edid.bin
+'
         success "Virtual monitor EDID created"
 
         log "Configuring Xorg..."
@@ -634,5 +629,6 @@ EOF
         fi
     fi
 fi
+
 
 #wip

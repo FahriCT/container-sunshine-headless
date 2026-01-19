@@ -1,4 +1,8 @@
 # Gaming on AI Servers
+![Screenshot](https://i.ibb.co/KpKpghRk/Screenshot-20260118-110930-Artemis.jpg)
+
+[![Open Repo](https://img.shields.io/badge/Open%20Repo-GitHub-181717?logo=github&logoColor=white)](https://github.com/FahriCT/container-sunshine-headless)
+
 
 Sunshine Headless Gaming & Streaming Stack for Ubuntu
 An automated installation script that turns Ubuntu headless AI servers and cloud GPU instances into a fully functional gaming and streaming environment using Sunshine, Xorg, and NVIDIA GPUs, even in restricted or compute-focused setups.

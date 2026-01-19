@@ -1,0 +1,71 @@
+ "nvidia": {
+    "550": {
+      "name": "NVIDIA 550 Server",
+      "description": "Stable driver for Ubuntu 20.04",
+      "ubuntu_version": "20.04.1",
+      "build_id": "29284400",
+      "base_url": "https://launchpad.net/~canonical-kernel-team/+archive/ubuntu/ppa/+build/29284400/+files",
+      "packages": [
+        "libnvidia-cfg1-550-server_550.127.08-0ubuntu0.20.04.1_amd64.deb",
+        "libnvidia-common-550-server_550.127.08-0ubuntu0.20.04.1_all.deb",
+        "libnvidia-compute-550-server_550.127.08-0ubuntu0.20.04.1_amd64.deb",
+        "libnvidia-fbc1-550-server_550.127.08-0ubuntu0.20.04.1_amd64.deb",
+        "libnvidia-gl-550-server_550.127.08-0ubuntu0.20.04.1_amd64.deb",
+        "nvidia-utils-550-server_550.127.08-0ubuntu0.20.04.1_amd64.deb",
+        "xserver-xorg-video-nvidia-550-server_550.127.08-0ubuntu0.20.04.1_amd64.deb"
+      ]
+    },
+    "570": {
+      "name": "NVIDIA 570 Server",
+      "description": "Latest driver for Ubuntu 24.04 (Recommended)",
+      "ubuntu_version": "24.04.3",
+      "build_id": "31402503",
+      "base_url": "https://answers.launchpad.net/~canonical-kernel-team/+archive/ubuntu/nvidia-graphics/+build/31402503/+files",
+      "packages": [
+        "libnvidia-cfg1-570-server_570.195.03-0ubuntu0.24.04.3_amd64.deb",
+        "libnvidia-common-570-server_570.195.03-0ubuntu0.24.04.3_all.deb",
+        "libnvidia-compute-570-server_570.195.03-0ubuntu0.24.04.3_amd64.deb",
+        "libnvidia-decode-570-server_570.195.03-0ubuntu0.24.04.3_amd64.deb",
+        "libnvidia-encode-570-server_570.195.03-0ubuntu0.24.04.3_amd64.deb",
+        "libnvidia-extra-570-server_570.195.03-0ubuntu0.24.04.3_amd64.deb",
+        "libnvidia-fbc1-570-server_570.195.03-0ubuntu0.24.04.3_amd64.deb",
+        "libnvidia-gl-570-server_570.195.03-0ubuntu0.24.04.3_amd64.deb",
+        "nvidia-compute-utils-570-server_570.195.03-0ubuntu0.24.04.3_amd64.deb",
+        "nvidia-utils-570-server_570.195.03-0ubuntu0.24.04.3_amd64.deb",
+        "xserver-xorg-video-nvidia-570-server_570.195.03-0ubuntu0.24.04.3_amd64.deb"
+      ]
+    },
+    "535": {
+      "name": "NVIDIA 535 Server",
+      "description": "Older stable driver for Ubuntu 22.04",
+      "ubuntu_version": "22.04.1",
+      "build_id": "28123456",
+      "base_url": "https://launchpad.net/~canonical-kernel-team/+archive/ubuntu/ppa/+build/28123456/+files",
+      "packages": [
+        "libnvidia-cfg1-535-server_535.154.05-0ubuntu0.22.04.1_amd64.deb",
+        "libnvidia-common-535-server_535.154.05-0ubuntu0.22.04.1_all.deb",
+        "libnvidia-compute-535-server_535.154.05-0ubuntu0.22.04.1_amd64.deb",
+        "libnvidia-fbc1-535-server_535.154.05-0ubuntu0.22.04.1_amd64.deb",
+        "libnvidia-gl-535-server_535.154.05-0ubuntu0.22.04.1_amd64.deb",
+        "nvidia-utils-535-server_535.154.05-0ubuntu0.22.04.1_amd64.deb",
+        "xserver-xorg-video-nvidia-535-server_535.154.05-0ubuntu0.22.04.1_amd64.deb"
+      ]
+    }
+  },
+  "amd": {
+    "mesa": {
+      "name": "Mesa (Open Source AMD Driver)",
+      "description": "Default open source driver for AMD GPUs",
+      "packages": [
+        "mesa-vulkan-drivers",
+        "mesa-vulkan-drivers:i386",
+        "libgl1-mesa-dri",
+        "libgl1-mesa-dri:i386"
+      ]
+    }
+  },
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2026-01-19",
+    "default_nvidia": "570",
+  }

@@ -40,6 +40,7 @@ Do not run the script as root. The script will exit if executed directly as root
 - Working nvidia-smi
 - Internet access
 
-Notes:
-
-
+# Notes:
+- using sunshine custom build from [![lunarlattice0](https://img.shields.io/badge/lunarlattice0-GitHub-181717?logo=github&logoColor=white)](https://github.com/lunarlattice0/Sunshine-RestoreLegacyInput) for those who don't have access to /dev/input
+- Tested on ubuntu 22.04 & 24.04
+- Tested on koyeb,saturn cloud,google colab
